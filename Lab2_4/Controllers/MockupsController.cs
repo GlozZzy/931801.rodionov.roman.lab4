@@ -72,7 +72,7 @@ namespace WebApplication6.Controllers
             if (ModelState["FirstName"].ValidationState == ModelValidationState.Valid &
                 ModelState["LastName"].ValidationState == ModelValidationState.Valid &
                 ModelState["Gender"].ValidationState == ModelValidationState.Valid)
-                return RedirectToAction("SignUpPrt2", user);
+                return RedirectToAction("SignUp2", user);
             return View();
         }
 
